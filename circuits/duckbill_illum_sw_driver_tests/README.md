@@ -1,1 +1,1 @@
-Test circuit designs to driver the "duckbill" illuminated automotive switches.
+Test circuit designs to drive the "duckbill" illuminated automotive switches.
