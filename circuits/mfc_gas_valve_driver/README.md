@@ -23,4 +23,4 @@ setpoint and (3) flow feedback which is scaled up to +/- 10V for presentation on
 mounted volt meter.  This version uses KiCad 8.0.
 
 20261107:  Included analog support for the Tylan MFC, which is very similar to the Pivotal.
-version uses KiCad 10.0.
+KiCad 10.0.
