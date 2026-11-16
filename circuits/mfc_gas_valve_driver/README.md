@@ -13,11 +13,14 @@ Circuit to drive:
 
 Presumed Inputs:
 1)  Existing +/- 15V modular power supply
-2)  (**NEED TO BUY**) +24V modular power supply (power capacity around 250W)
+2)  Existing +24V modular power supply
 
 Versions:
 
 20261102:  Initial version which supports 8 illuminated switches which control 8 gas valves,
 and drives the Pivotal MFC.  Three MFC controls are supported:  (1) Flow override, (2) flow 
 setpoint and (3) flow feedback which is scaled up to +/- 10V for presentation on a panel-
-mounted volt meter.
+mounted volt meter.  This version uses KiCad 8.0.
+
+20261107:  Included analog support for the Tylan MFC, which is very similar to the Pivotal.
+version uses KiCad 10.0.
