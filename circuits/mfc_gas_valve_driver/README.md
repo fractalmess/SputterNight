@@ -19,8 +19,9 @@ Versions:
 
 20261102:  Initial version which supports 8 illuminated switches which control 8 gas valves,
 and drives the Pivotal MFC.  Three MFC controls are supported:  (1) Flow override, (2) flow 
-setpoint and (3) flow feedback which is scaled up to +/- 10V for presentation on a panel-
+setpoint and (3) flow feedback (0-5 V) which is scaled up to 0-10V for presentation on a panel-
 mounted volt meter.  This version uses KiCad 8.0.
 
-20261107:  Included analog support for the Tylan MFC, which is very similar to the Pivotal.
-KiCad 10.0.
+20261107:  Added analog support for the Tylan MFC, which is very similar to the Pivotal, and the
+same three controls are brought out to the interface board.  Additionally, auto-zeroing
+functions are brought out for future use.  KiCad 10.0.
